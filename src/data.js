@@ -1,0 +1,69 @@
+// Datos de ejemplo (ficticios). Reemplázalos por tus propios cafés.
+// Campos:
+//   nombre, ciudad, tipo, calificacion (1 a 5), precio ($, $$ o $$$), descripcion
+export const cafes = [
+  {
+    nombre: "Café Aurora",
+    ciudad: "Guadalajara",
+    tipo: "Especialidad",
+    calificacion: 4.8,
+    precio: "$$",
+    descripcion: "Granos de origen único, métodos de filtrado y pastelería artesanal.",
+  },
+  {
+    nombre: "La Taza Roja",
+    ciudad: "Ciudad de México",
+    tipo: "Clásico",
+    calificacion: 4.2,
+    precio: "$",
+    descripcion: "Café de olla y pan dulce en un ambiente tradicional.",
+  },
+  {
+    nombre: "Grano & Sombra",
+    ciudad: "Monterrey",
+    tipo: "Especialidad",
+    calificacion: 4.6,
+    precio: "$$$",
+    descripcion: "Tostado propio, barra de espresso y catas los fines de semana.",
+  },
+  {
+    nombre: "Rincón del Mocha",
+    ciudad: "Puebla",
+    tipo: "Brunch",
+    calificacion: 4.0,
+    precio: "$$",
+    descripcion: "Desayunos todo el día con café de la casa y jugos naturales.",
+  },
+  {
+    nombre: "Nube de Espresso",
+    ciudad: "Guadalajara",
+    tipo: "Clásico",
+    calificacion: 3.9,
+    precio: "$",
+    descripcion: "Espresso rápido para llevar, ideal antes del trabajo.",
+  },
+  {
+    nombre: "Cold Brew Lab",
+    ciudad: "Ciudad de México",
+    tipo: "Especialidad",
+    calificacion: 4.7,
+    precio: "$$",
+    descripcion: "Especialistas en cold brew y bebidas frías de temporada.",
+  },
+  {
+    nombre: "Bosque y Barista",
+    ciudad: "Monterrey",
+    tipo: "Brunch",
+    calificacion: 4.4,
+    precio: "$$",
+    descripcion: "Terraza con plantas, chilaquiles y café de filtro.",
+  },
+  {
+    nombre: "El Molino",
+    ciudad: "Puebla",
+    tipo: "Clásico",
+    calificacion: 4.3,
+    precio: "$",
+    descripcion: "Café molido al momento y repostería casera.",
+  },
+];
