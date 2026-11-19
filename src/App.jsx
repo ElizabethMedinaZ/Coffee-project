@@ -143,4 +143,11 @@ function App() {
         </section>
       </main>
 
+      <footer className="pie">
+        <p>Profe, tengo sueño</p>
+      </footer>
+    </>
+  );
+}
+
 export default App;
