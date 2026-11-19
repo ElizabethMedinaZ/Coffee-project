@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { cafes } from "./data";
 import "./App.css";
 
-// Quita acentos y pasa a minúsculas para que "cafe" encuentre "Café"
 function normalizar(texto) {
   return texto
     .toLowerCase()
@@ -10,7 +9,6 @@ function normalizar(texto) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-// Valores únicos y ordenados de un campo (para llenar los filtros)
 function valoresUnicos(campo) {
   return [...new Set(cafes.map((c) => c[campo]))].sort((a, b) =>
     a.localeCompare(b, "es")
@@ -144,12 +142,5 @@ function App() {
           )}
         </section>
       </main>
-
-      <footer className="pie">
-        <p>Proyecto de ejemplo · Los datos en data.js son ficticios.</p>
-      </footer>
-    </>
-  );
-}
 
 export default App;

@@ -1,6 +1,3 @@
-// Datos de ejemplo (ficticios). Reemplázalos por tus propios cafés.
-// Campos:
-//   nombre, ciudad, tipo, calificacion (1 a 5), precio ($, $$ o $$$), descripcion
 export const cafes = [
   {
     nombre: "Café Aurora",
